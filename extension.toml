@@ -1,0 +1,17 @@
+id = "lobster"
+name = "Lobster ZED"
+version = "0.1"
+schema_version = 1
+authors = [
+    "Inferrna <inferrna@gmail.com>",
+]
+description = "Lobster language support for Zed"
+#repository = "https://github.com/inferrna/zed-lobster"
+
+[grammars.lobster]
+repository = "https://github.com/inferrna/tree-sitter-lobster"
+commit = "8fca5d57d15482c1cce0f82c98203eb71ffcadaa"
+
+[language_servers.lobster]
+language = "Lobster"
+name = "Lobster"
